@@ -1,0 +1,74 @@
+# Site-wide page metadata
+pages:
+  - title: Home
+    description: Welcome to our multi-page Jekyll website
+    featured: true
+    
+  - title: About
+    description: Learn more about our organization and team
+    featured: true
+    
+  - title: Services
+    description: Our comprehensive service offerings
+    featured: true
+    
+  - title: Portfolio
+    description: Projects and case studies showing our work
+    featured: true
+    
+  - title: Contact
+    description: Get in touch with our team
+
+# Team members (reference in about.md if needed)
+team:
+  - name: Sarah Johnson
+    title: Founder & Creative Director
+    bio: 15 years of experience in web design
+    
+  - name: Michael Chen
+    title: Lead Developer
+    bio: 12 years of full-stack development
+    
+  - name: Emily Rodriguez
+    title: Project Manager
+    bio: Expert in keeping projects on track
+    
+  - name: David Thompson
+    title: UI/UX Designer
+    bio: Creates beautiful, intuitive interfaces
+    
+  - name: Jessica Lee
+    title: Digital Marketing Specialist
+    bio: Helps maximize online presence
+
+# Services (reference in services.md if needed)
+services:
+  - name: Web Design
+    icon: 🎨
+    description: Beautiful, user-friendly websites
+    
+  - name: Web Development
+    icon: 💻
+    description: Fast, secure, scalable web applications
+    
+  - name: Consulting
+    icon: 📋
+    description: Expert advice on web strategy
+    
+  - name: Maintenance & Support
+    icon: 🔧
+    description: Ongoing care for your web properties
+
+# Testimonials
+testimonials:
+  - author: Alexandra Park
+    title: CEO of TechStart
+    quote: "Working with this team was transformative for our business. Outstanding!"
+    
+  - author: Marcus Williams
+    title: Founder of Creative Co.
+    quote: "Excellent communication and delivered exactly what we needed on time."
+    
+  - author: Jennifer Martinez
+    title: Marketing Manager
+    quote: "The best investment we made in our online presence. Highly recommended!"

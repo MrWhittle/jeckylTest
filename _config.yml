@@ -1,0 +1,42 @@
+# Jekyll Site Configuration
+title: Multi-Page Jekyll Site
+description: A responsive multi-page site with anchored links and shared components
+baseurl: "" # Leave empty for GitHub Pages root, or /repo-name for project site
+url: "https://yourusername.github.io"
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:name/
+
+# Markdown processor
+markdown: kramdown
+
+# Exclude these files from the build
+exclude:
+  - .gitignore
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+# Global settings
+author: Your Name
+email: your.email@example.com
+social:
+  twitter: yourusername
+  github: yourusername
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
