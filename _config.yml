@@ -2,7 +2,7 @@
 title: Multi-Page Jekyll Site
 description: A responsive multi-page site with anchored links and shared components
 baseurl: "" # Leave empty for GitHub Pages root, or /repo-name for project site
-url: "https://yourusername.github.io"
+url: "https://mrwhittle.github.io"
 
 # Build settings
 theme: minima
