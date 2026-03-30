@@ -6,6 +6,7 @@
     <title>{{ page.title }} - {{ site.title }}</title>
     <meta name="description" content="{{ page.description | default: site.description }}">
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
     {% include header.html %}
@@ -24,5 +25,14 @@
     {% include footer.html %}
     
     <script src="{{ '/assets/js/script.js' | relative_url }}"></script>
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.gotrue.clear();
+          }
+        });
+      }
+    </script>
 </body>
 </html>
