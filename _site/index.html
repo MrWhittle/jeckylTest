@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Multi-Page Jekyll Site</title>
+    <meta name="description" content="A responsive multi-page site with anchored links and shared components">
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <header class="site-header">
+    <div class="header-content">
+        <div class="logo">
+            <h1><a href="/">Multi-Page Jekyll Site</a></h1>
+            <p class="tagline">A responsive multi-page site with anchored links and shared components</p>
+        </div>
+    </div>
+</header>
+
+    <nav class="site-nav">
+    <ul class="nav-menu">
+        <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="/about" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="/services" class="nav-link">Services</a></li>
+        <li class="nav-item"><a href="/portfolio" class="nav-link">Portfolio</a></li>
+        <li class="nav-item"><a href="/contact" class="nav-link">Contact</a></li>
+    </ul>
+</nav>
+
+    
+    <main class="container">
+        <article class="content">
+            
+                <section class="hero" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+    <div class="hero-content">
+        <h1 class="hero-title">Home</h1>
+        
+            <p class="hero-subtitle">Welcome to Our Multi-Page Jekyll Site</p>
+        
+    </div>
+</section>
+
+            
+            
+            <h2 id="quick-navigation">Quick Navigation</h2>
+
+<div class="toc">
+  <h3>Jump to Section</h3>
+  <ul>
+    <li><a href="#about-section">About This Site</a></li>
+    <li><a href="#features-section">Features</a></li>
+    <li><a href="#getting-started-section">Getting Started</a></li>
+  </ul>
+</div>
+
+<hr />
+
+<h2 id="about-section">About This Site</h2>
+
+<p>Welcome to our multi-page Jekyll website! This site demonstrates how to create a professional, multi-page site hosted on GitHub Pages with smooth scrolling anchor links and reusable components.</p>
+
+<p>Each page is individually updatable and maintains a consistent design and navigation structure. The site uses Jekyll’s powerful templating system to avoid repetition and make updates easy.</p>
+
+<h3 id="why-jekyll">Why Jekyll?</h3>
+
+<ul>
+  <li><strong>Simple</strong>: No database required</li>
+  <li><strong>Fast</strong>: Generates static HTML</li>
+  <li><strong>GitHub Pages</strong>: Free hosting with automatic deployment</li>
+  <li><strong>Version Control</strong>: Track all changes with Git</li>
+  <li><strong>Flexible</strong>: Supports custom plugins and layouts</li>
+</ul>
+
+<hr />
+
+<h2 id="features-section">Features</h2>
+
+<div class="grid">
+  <div class="card">
+    <h4>🎨 Responsive Design</h4>
+    <p>Works beautifully on desktop, tablet, and mobile devices with a fluid grid layout.</p>
+  </div>
+  
+  <div class="card">
+    <h4>⚡ Smooth Scrolling</h4>
+    <p>Anchor links smoothly scroll to their sections with proper offset for the sticky navigation.</p>
+  </div>
+  
+  <div class="card">
+    <h4>🔗 Shared Components</h4>
+    <p>Header, footer, and navigation are shared across all pages using Jekyll includes.</p>
+  </div>
+  
+  <div class="card">
+    <h4>📱 Mobile Optimized</h4>
+    <p>Touch-friendly navigation and optimized performance for all devices.</p>
+  </div>
+  
+  <div class="card">
+    <h4>🚀 Easy Deployment</h4>
+    <p>Deploy directly to GitHub Pages with a simple push to your repository.</p>
+  </div>
+  
+  <div class="card">
+    <h4>🎯 SEO Ready</h4>
+    <p>Built-in SEO optimization with proper meta tags and semantic HTML.</p>
+  </div>
+</div>
+
+<hr />
+
+<h2 id="getting-started-section">Getting Started</h2>
+
+<h3 id="to-deploy-this-site-to-github-pages">To deploy this site to GitHub Pages:</h3>
+
+<ol>
+  <li><strong>Create a GitHub repository</strong> named <code class="language-plaintext highlighter-rouge">yourusername.github.io</code></li>
+  <li><strong>Copy all files</strong> from this project to your repository</li>
+  <li><strong>Update <code class="language-plaintext highlighter-rouge">_config.yml</code></strong> with your information</li>
+  <li><strong>Push to GitHub</strong> - your site will be live at <code class="language-plaintext highlighter-rouge">https://yourusername.github.io</code></li>
+</ol>
+
+<h3 id="to-customize">To customize:</h3>
+
+<ul>
+  <li>Edit the individual page files (<code class="language-plaintext highlighter-rouge">.md</code> files) to update content</li>
+  <li>Modify <code class="language-plaintext highlighter-rouge">_includes/</code> files to change components like header or footer</li>
+  <li>Update <code class="language-plaintext highlighter-rouge">assets/css/style.css</code> to change colors and styling</li>
+  <li>Change <code class="language-plaintext highlighter-rouge">_config.yml</code> to update site title and metadata</li>
+</ul>
+
+<h3 id="to-run-locally">To run locally:</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gem <span class="nb">install </span>bundler
+bundle <span class="nb">install
+</span>bundle <span class="nb">exec </span>jekyll serve
+</code></pre></div></div>
+
+<p>Then visit <code class="language-plaintext highlighter-rouge">http://localhost:4000</code> in your browser.</p>
+
+<hr />
+
+<p><strong>Next Steps:</strong> Check out the <a href="/about">About page</a> to see how other pages are structured!</p>
+
+        </article>
+    </main>
+    
+    <footer class="site-footer">
+    <div class="footer-content">
+        <div class="footer-section">
+            <h3>Multi-Page Jekyll Site</h3>
+            <p>A responsive multi-page site with anchored links and shared components</p>
+        </div>
+        <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul class="footer-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/services">Services</a></li>
+                <li><a href="/portfolio">Portfolio</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>Contact</h4>
+            <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2026 Multi-Page Jekyll Site. All rights reserved.</p>
+    </div>
+</footer>
+
+    
+    <script src="/assets/js/script.js"></script>
+</body>
+</html>
